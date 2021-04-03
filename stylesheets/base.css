@@ -1,0 +1,75 @@
+@font-face {
+    font-family: iAWriterMono;
+    src: url('../fonts/iAWriterMonoS-Regular.ttf');
+}
+
+@font-face {
+    font-family: iAWriterMono;
+    font-weight: bold;
+    src: url('../fonts/iAWriterMonoS-Bold.ttf');
+}
+
+html, body {
+    width: 100vw;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: iAWriterMono;
+    background-color: #95e0ff;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    text-decoration-color: white;
+}
+
+#place {
+    background-color: #95abff;
+}
+
+a:hover #place {
+    background-color: black;
+    color: white;
+}
+
+#explore {
+    background-color: #ffb495;
+}
+
+a:hover #explore {
+    background-color: black;
+    color: white;
+}
+
+#ideas {
+    background-color: #95ffb4;
+}
+
+a:hover #ideas {
+    background-color: black;
+    color: white;
+}
+
+#name {
+    background-color: #ffe995;
+}
+
+a:hover #name {
+    background-color: black;
+    color: white;
+}
+
+#talk {
+    background-color: white;
+}
+
+a:hover #talk {
+    background-color: black;
+    color: white;
+}
