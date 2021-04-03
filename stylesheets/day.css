@@ -3,6 +3,12 @@
     src: url('../fonts/iAWriterMonoS-Regular.ttf');
 }
 
+@font-face {
+    font-family: iAWriterMono;
+    font-weight: bold;
+    src: url('../fonts/iAWriterMonoS-Bold.ttf');
+}
+
 html, body {
     width: 100vw;
     height: 100%;
