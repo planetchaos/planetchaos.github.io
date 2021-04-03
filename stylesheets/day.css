@@ -21,6 +21,10 @@ body {
     background-color: #95e0ff;
 }
 
+a {
+    color: black;
+}
+
 .main-container {
     margin: 0;
     padding: 0;
@@ -30,10 +34,20 @@ body {
     justify-content: flex-end;
 }
 
+.main-container > div {
+    height: calc(100vh/7);
+}
+
+a > div {
+    height: calc(100vh/7);
+}
+
 span {
     margin: 0;
     padding: 0;
-    font-size: calc(100% + 5.5vw);
+    /* font-size: calc(100% + 5vw); */
+    font-size: calc(80vh/7);
+    height: calc(80vh/7);
 }
 
 /* @media (min-width:320px)  { [> smartphones, iPhone, portrait 480x320 phones <] } */
@@ -43,26 +57,50 @@ span {
 /* @media (min-width:1025px) { [> big landscape tablets, laptops, and desktops <] } */
 /* @media (min-width:1281px) { [> hi-res laptops and desktops <] } */
 
-@media (max-width: 961px)  {
-    span {
-        margin: 0;
-        padding: 0;
-        font-size: calc(100% + 9vw);
-    }
-}
+/* @media (max-width: 961px)  { */
+/*     span { */
+/*         margin: 0; */
+/*         padding: 0; */
+/*         font-size: calc(100% + 9vw); */
+/*     } */
+/* } */
 
 #place {
     background-color: #95abff;
+}
+
+a:hover {
+    text-decoration-color: white;
+}
+
+a:hover #place {
+    background-color: black;
+    color: white;
 }
 
 #explore {
     background-color: #ffb495;
 }
 
+a:hover #explore {
+    background-color: black;
+    color: white;
+}
+
 #ideas {
     background-color: #95ffb4;
 }
 
+a:hover #ideas {
+    background-color: black;
+    color: white;
+}
+
 #name {
     background-color: #ffe995;
+}
+
+a:hover #name {
+    background-color: black;
+    color: white;
 }
