@@ -10,6 +10,12 @@
     font-size: 8vmin;
 }
 
+@media  (max-width: 1024px) and (orientation: landscape) {
+    .items {
+        font-size: 7vmin;
+    }
+}
+
 @media (max-width: 961px)  {
     .items {
         font-size: 10vmin;
