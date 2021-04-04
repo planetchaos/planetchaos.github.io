@@ -1,0 +1,22 @@
+.explore-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.items {
+    font-size: 8vmin;
+}
+
+@media (max-width: 961px)  {
+    .items {
+        font-size: 10vmin;
+    }
+}
+
+.items:hover {
+    color: white;
+    background-color: black;
+}
