@@ -56,19 +56,40 @@
 
         <link rel="stylesheet" type="text/css" href="stylesheets/base.css">
         <link rel="stylesheet" type="text/css" href="stylesheets/home.css">
-        <script src="js/scroll-text.js"></script>
     </head>
     <body>
         <div class='main-container'>
-            <p hidden id="section">0</p>
-            <div><span> a </span></div>
-            <a href="place.html"><div id="place"><span> place </span></div></a>
-            <div><span> to </span></div>
-            <a href="explore.html"><div id="explore"><span> explore </span></div></a>
-            <a href=""><div id="ideas"><span> ideas </span></div></a>
-            <div><span> by </span></div>
-            <a href="https://instagram.com/techedlaksh"><div id="name"><span> @techedlaksh </span></div></a>
+            <div class='scroll'>
+                <a href="#page2" id="first">
+                    <span> Next </span>
+                </a>
+            </div>
+            <div class='item-container' id="page1">
+                <p hidden id="section">0</p>
+                <div><span> a </span></div>
+                <a href="place.html"><div id="place"><span> place </span></div></a>
+                <div><span> to </span></div>
+                <a href="explore.html"><div id="explore"><span> explore </span></div></a>
+                <a href=""><div id="ideas"><span> ideas </span></div></a>
+                <div><span> by </span></div>
+                <a href="https://instagram.com/techedlaksh"><div id="name"><span> @techedlaksh </span></div></a>
+            </div>
+            <div hidden class='scroll'>
+                <a href="#page1" id="second">
+                    <span> Previous </span>
+                </a>
+            </div>
+            <div class='item-container2' id="page2">
+                <div><span> Currently  </span></div>
+                <a href="expirementation.html"><div id="place"><span> experimenting </span></div></a>
+                <div><span> with </span></div>
+                <a href="human-story.html"><div id="explore"><span> Human Story </span></div></a>
+                <div><span> through </span></div></a>
+                <div><span> Short </span></div>
+                <a href="https://instagram.com/techedlaksh"><div id="name"><span> Videos </span></div></a>
+            </div>
         </div>
     </body>
+    <script src="js/scroll-text.js"></script>
 </html>
 
